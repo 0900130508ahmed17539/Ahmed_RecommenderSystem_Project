@@ -1,7 +1,7 @@
 # Foundational Models for Recommender Systems
 
 ## Overview
-We build a complete recommender system from scratch using alternating least squares (ALS) for the MovieLens 32 million dataset. Our system solves sparse matrix completion with 200,948 users, 84,432 movies, and only 0.19% of possible ratings observed.
+IWe build a complete recommender system from scratch using alternating least squares (ALS) for the MovieLens 32 million dataset. Our system solves sparse matrix completion with 200,948 users, 84,432 movies, and only 0.19% of possible ratings observed.
 
 ## What We Achieved
 * **0.7716 RMSE** on test data through systematic hyperparameter optimization
@@ -56,7 +56,7 @@ We chose object-oriented programming to create a modular system where each compo
 - Isolate different algorithms for easy testing and comparison
 - Share common interfaces between models (train, predict, evaluate)
 - Maintain clean separation between data handling, model training, and evaluation
-- Enable easy extension with new models without modifying existing code
+- Enable easy extension with new models without modifying our existing code
 
 ### Core Classes
 ```python
@@ -66,7 +66,7 @@ Latent()          # Matrix factorization with ALS
 Features()        # Hierarchical model with genres
 BPR()             # Implicit feedback with ranking
 VI()              # Uncertainty quantification
-ABTest()          # Production testing framework
+ABTest()          # Production testing using AB Testing 
 ```
 
 Each class encapsulates its own state and behavior. For instance, our Latent class maintains user matrices U and item matrices V, while our VI class extends this to also store variance parameters. This modular design means we can swap models easily - all models expose the same train() and computermse() methods.
