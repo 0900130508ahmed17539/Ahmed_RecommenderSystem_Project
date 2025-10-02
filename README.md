@@ -78,10 +78,6 @@ Each class encapsulates its own state and behavior. For instance, our Latent cla
 
 ## Customization
 
-### Adjust Hyperparameters
-```python
-model.train(D=20, epochs=10, lam=0.1, gam=2.5, tau=1.0)
-```
 
 ### Test Specific Models Only
 Comment out sections in main to run specific components:
