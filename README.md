@@ -1,8 +1,10 @@
+# Foundational Matrix Factorization for Recommender Systems
 
-**##### Ahmed Mohammad Ahmed**  
-**#### Student No: 29799899**  
-**#### Stellenbosch University**  
-**#### 29799899@sun.ac.za**
+**Ahmed Mohammad Ahmed**  
+**Student No: 29799899**  
+**Stellenbosch University**  
+📧 29799899@sun.ac.za
+
 
 ## Overview
 
