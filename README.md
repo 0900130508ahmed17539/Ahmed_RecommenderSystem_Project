@@ -1,4 +1,3 @@
-# MovieLens Recommender System
 
 **##### Ahmed Mohammad Ahmed**  
 **#### Student No: 29799899**  
