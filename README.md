@@ -93,4 +93,4 @@ https://github.com/0900130508ahmed17539
 
 ## Author
 
-Ahmed Mohammad Ahmed -  Stellenbosch University . African Institute for Mathematical Sciences (AIMS) South Africa,
+Ahmed Mohammad Ahmed -  Stellenbosch University .South Africa,
